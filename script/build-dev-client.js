@@ -30,6 +30,7 @@ const webpackDevServerConfig = (clientOptions) => {
     },
     // 指定什么文件写入硬盘
     writeToDisk: (filepath) => filepath.includes("manifest-loadable.json") || filepath.includes("manifest-dev.json"),
+    // writeToDisk: (filepath) => true,
     headers: {
       "Access-Control-Allow-Origin": "*",
     },

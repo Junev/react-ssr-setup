@@ -4,8 +4,8 @@
   "author": "mrwang",
   "license": "MIT",
   "scripts": {
-    "dev": "./script/start-dev",
-    "build": "./script/start-prod",
+    "dev": "node ./script/start-dev",
+    "build": "node ./script/start-prod",
     "start": "cross-env NODE_ENV=production node ./bin/start"
   },
   "dependencies": {
